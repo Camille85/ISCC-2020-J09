@@ -35,7 +35,9 @@
     else{
       if(isset($_COOKIE['id'])){
         $_SESSION['id']= $_COOKIE['id'];
-    }
+        }
+      }
+
     else{
       header('location:http://localhost:8888/ISCC-2020/ISCC-2020-J09/EX_01/connexion');
     }

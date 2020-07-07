@@ -11,6 +11,7 @@
                 header('location:http://localhost:8888/ISCC-2020/ISCC-2020-J09/EX_01/connexion');
                 exit();
             }
+        }
             else {
                 echo "Sorry it's not the good password/user name";
                 }
